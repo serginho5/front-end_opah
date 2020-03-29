@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
   html, body, #root {
     height: 100%;
+    width: 100%;
   }
 
   #root {
@@ -26,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
     background-image: url(${backgroung});
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    outline: 0;
+     outline: 0;
   }
 
   button a {

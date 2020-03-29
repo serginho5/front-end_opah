@@ -1,13 +1,15 @@
 import React from 'react';
 import GlobalStyle from './styles/globalStyles';
 import Header from './componets/Header';
-import { Container } from './styles/components';
+import { Container, Content } from './styles/components';
 
 const App = () => (
   <>
     <GlobalStyle />
     <Container>
-      <Header />
+      <Content>
+        <Header />
+      </Content>
     </Container>
   </>
 );

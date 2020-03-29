@@ -4,9 +4,14 @@ import { gren, red } from '../../styles/color';
 export const Container = styled.div`
     display: flex;
     align-items: center;
+    flex: 1;
     justify-content: space-between;
     padding: 5px 0;
     border-bottom: 1px solid #d9d5d5;
+
+@media screen and (max-width: 767px){
+  display: none;
+}
 `;
 
 export const HeaderLogo = styled.div`
