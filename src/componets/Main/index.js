@@ -4,6 +4,7 @@ import {
   ContentCenter, SpanGren,
   SpanGrey, SpanRed, SpanYellow, SpanPurple
 } from './styles';
+import Card from '../../componets/Card';
 
 const Main = () => (
   <Container>
@@ -24,7 +25,7 @@ const Main = () => (
           </h3>
       </ContentCenter>
     </ContentText >
-
+    <Card />
   </Container >
 );
 
