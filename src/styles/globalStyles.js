@@ -9,7 +9,8 @@ const GlobalStyle = createGlobalStyle`
    outline: 0;
  }
 
-  html, body, #root {
+ html, body, #root {
+   box-sizing: border-box;
     height: 100%;
     width: 100%;
   }

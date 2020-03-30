@@ -11,6 +11,7 @@ export const Content = styled.div`
     width: 1200px!important;
     max-width: 100%;
     display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1199px){
