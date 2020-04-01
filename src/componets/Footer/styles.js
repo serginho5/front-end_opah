@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { grey } from '../../styles/color';
 
 export const Container = styled.div`
     display: flex;
@@ -13,6 +14,9 @@ export const Container = styled.div`
 
 export const FooterText = styled.div`
 
+p {
+  color: ${grey};
+}
 `;
 
 export const FooterImg = styled.div`

@@ -1,10 +1,11 @@
 import React from 'react';
+import ThemeSwitcher from '../../componets/ThemeSwitcher';
 import Desk from '../../assets/desktop-responsive-design.png';
 import Tablet from '../../assets/tablets-responsive-design.png';
 import Mobile from '../../assets/mobile-responsive-design.png';
 import { Container, CardMain, CardHeader, CardText } from './styles';
 
-const Card = () => (
+const Card = (props) => (
   <Container>
     <CardMain>
       <CardHeader style={{ backgroundColor: '#FE9481' }}>
@@ -34,7 +35,7 @@ const Card = () => (
       </CardHeader>
       <CardText>
         <p>Quando pressionado o botão <span>Leia mais...</span> modifique o tema do site para blackfriday a seu gosto.</p>
-        <button type="button" style={{ backgroundColor: '#9C8CB9' }}>Leia mais...</button>
+        <ThemeSwitcher toggleTheme={props.toggleTheme} />
       </CardText>
     </CardMain>
   </Container>

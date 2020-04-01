@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import backgroung from '../assets/background.jpg';
+import dark from '../assets/fundo_dark.png';
 
 const GlobalStyle = createGlobalStyle`
    * {
@@ -25,7 +26,8 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Open Sans", sans-serif;
     display: flex;
     justify-content: center;
-    background-image: url(${backgroung});
+    background-image: url(${props => props.typeTheme ? dark : backgroung});
+
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
      outline: 0;
