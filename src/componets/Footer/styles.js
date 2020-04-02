@@ -16,6 +16,7 @@ export const FooterText = styled.div`
 
 p {
   color: ${grey};
+  margin-bottom: 0px;
 }
 `;
 

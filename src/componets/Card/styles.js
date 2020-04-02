@@ -8,6 +8,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 0 30px;
+  flex-flow: column-reverse;
 }
 `;
 
@@ -73,6 +74,7 @@ button {
     cursor: pointer;
     transition: all 600ms ease;
     margin-bottom: 30px;
+    outline: 0;
 
 
 &:before {
@@ -92,4 +94,5 @@ button {
 }
 
 }
+
 `;

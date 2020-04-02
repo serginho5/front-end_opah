@@ -48,6 +48,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-shadow: 1px 1px 2px #dee0d3;
 }
 
 @media screen and (max-width: 767px){

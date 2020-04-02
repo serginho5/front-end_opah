@@ -30,7 +30,7 @@ const GlobalStyle = createGlobalStyle`
 
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-     outline: 0;
+     outline: 0!important;
   }
 
   button a {

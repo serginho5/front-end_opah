@@ -6,7 +6,8 @@ export const Mobile = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 3px 5px 0px rgba(255,255,255,0.5);
+}
 
     @media (min-width: 768px){
       display: none;
@@ -71,7 +72,7 @@ export const MobileHamburg = styled.div`
    margin-bottom: 5px;
    position: relative;
 
-   background: #231f20;
+   background: #8d8083;
    border-radius: 3px;
 
    z-index: 1;
@@ -101,7 +102,7 @@ export const MobileHamburg = styled.div`
  {
    opacity: 1;
    transform: rotate(45deg) translate(-2px, -1px);
-   background: #232323;
+   background: ${gren};
  }
 
  /*

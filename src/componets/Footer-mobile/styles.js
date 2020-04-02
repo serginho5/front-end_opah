@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { grey } from '../../styles/color';
 
 export const Container = styled.div`
 
@@ -15,10 +16,15 @@ export const Content = styled.div`
     align-items: center;
     padding: 0 20px;
     height: 60px;
+    background: rgba(255,255,255, 0.2);
 `;
 
 export const FooterText = styled.div`
 
+p {
+margin-bottom: 0px;
+color: ${grey};
+}
 `;
 
 export const FooterImg = styled.div`
