@@ -29,8 +29,8 @@ span {
 
 @media screen and (max-width: 767px){
   h1{
-    font-size: 2.3em;
-    margin: 60px 30px;
+    font-size: 1.8em;
+    margin: 60px 20px;
   }
 }
 `;
@@ -53,8 +53,8 @@ h3 {
 
 @media screen and (max-width: 767px){
   h3 {
-    font-size: 1.3em;
-    margin: 0 30px;
+    font-size: 1.0em;
+    margin: 0 25px;
   }
 }
 `;
