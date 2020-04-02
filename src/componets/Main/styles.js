@@ -72,7 +72,7 @@ export const SpanGren = styled.span`
     margin-right: 5px;
 
 @media screen and (max-width: 767px){
-  margin-top: 5px;
+  margin-top: 2px;
 }
 `;
 
@@ -86,7 +86,7 @@ export const SpanGrey = styled.span`
     margin-left: 5px;
 
 @media screen and (max-width: 767px){
-  margin-top: 6px;
+  margin-top: 2px;
 }
 `;
 
@@ -100,7 +100,7 @@ export const SpanRed = styled.span`
     margin-left: 5px;
 
 @media screen and (max-width: 767px){
-  margin-top: 5px;
+  margin-top: 2px;
 }
 `;
 
@@ -114,7 +114,7 @@ export const SpanYellow = styled.span`
     margin-left: 5px;
 
 @media screen and (max-width: 767px){
-  margin-top: 5px;
+  margin-top: 2px;
 }
 `;
 
@@ -128,6 +128,6 @@ export const SpanPurple = styled.span`
     margin-left: 5px;
 
 @media screen and (max-width: 767px){
-  margin-top: 5px;
+  margin-top: 2px;
 }
 `;
